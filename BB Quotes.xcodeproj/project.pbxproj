@@ -22,6 +22,7 @@
 		EA6AC70B2B856594009CAF6B /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6AC70A2B856594009CAF6B /* Character.swift */; };
 		EA6AC70D2B8568C3009CAF6B /* FetchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6AC70C2B8568C3009CAF6B /* FetchController.swift */; };
 		EA6AC70F2B85778C009CAF6B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6AC70E2B85778C009CAF6B /* Constants.swift */; };
+		EAF9E22E2B86B7D400B22F72 /* CharacterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF9E22D2B86B7D400B22F72 /* CharacterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,7 @@
 		EA6AC70A2B856594009CAF6B /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
 		EA6AC70C2B8568C3009CAF6B /* FetchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchController.swift; sourceTree = "<group>"; };
 		EA6AC70E2B85778C009CAF6B /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		EAF9E22D2B86B7D400B22F72 /* CharacterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 			children = (
 				EA6AC6DA2B8561A7009CAF6B /* BB_QuotesApp.swift */,
 				EA6AC6DC2B8561A7009CAF6B /* ContentView.swift */,
+				EAF9E22D2B86B7D400B22F72 /* CharacterView.swift */,
 				EA3857C82B85A1A4003E8E57 /* ViewModel.swift */,
 				EA6AC70C2B8568C3009CAF6B /* FetchController.swift */,
 				EA3857CA2B85A94D003E8E57 /* QuoteView.swift */,
@@ -284,6 +287,7 @@
 			files = (
 				EA6AC7092B856543009CAF6B /* Quote.swift in Sources */,
 				EA6AC6DD2B8561A7009CAF6B /* ContentView.swift in Sources */,
+				EAF9E22E2B86B7D400B22F72 /* CharacterView.swift in Sources */,
 				EA6AC70D2B8568C3009CAF6B /* FetchController.swift in Sources */,
 				EA6AC70B2B856594009CAF6B /* Character.swift in Sources */,
 				EA6AC70F2B85778C009CAF6B /* Constants.swift in Sources */,
@@ -456,6 +460,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"BB Quotes/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Say My Name";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -484,6 +489,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"BB Quotes/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Say My Name";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
